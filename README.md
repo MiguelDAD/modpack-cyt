@@ -7,7 +7,7 @@ ModPack utilizado para Copa y Toke
 ## Instrucciones de Instalación
 
 1. **Descargar el repositorio**:
-    - Descargar el modpack como un archivo ZIP y descomprimirlo. Para esto clique en el boton verde `Code` y la opción `Download Zip`. 
+    - Descargar el modpack como un archivo ZIP y descomprimirlo. Para esto clique en el boton verde `Code (Aparece arriba del todo)` y la opción `Download Zip`. 
 
 2. **Acceder a tu directorio `.minecraft`**:
     - En Windows:
