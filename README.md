@@ -7,11 +7,7 @@ ModPack utilizado para Copa y Toke
 ## Instrucciones de Instalación
 
 1. **Descargar el repositorio**:
-    - Clona este repositorio en tu máquina local usando el siguiente comando de Git:
-      ```sh
-      git clone https://github.com/MiguelDAD/modpack-cyt.git
-      ```
-    - Alternativamente, puedes descargar el repositorio como un archivo ZIP y descomprimirlo. Para esto clique en el boton verde `Code` y la opción `Download Zip`. 
+    - Descargar el modpack como un archivo ZIP y descomprimirlo. Para esto clique en el boton verde `Code` y la opción `Download Zip`. 
 
 2. **Acceder a tu directorio `.minecraft`**:
     - En Windows:
