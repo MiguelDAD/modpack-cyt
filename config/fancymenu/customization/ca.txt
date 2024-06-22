@@ -1,0 +1,181 @@
+type = menu
+
+customization-meta {
+  identifier = net.minecraft.client.gui.GuiMainMenu
+  randomgroup = 1
+  renderorder = foreground
+  randommode = false
+  randomonlyfirsttime = false
+}
+
+customization {
+  path = sources/image.png
+  action = texturizebackground
+}
+
+customization {
+  keepaspectratio = false
+  action = backgroundoptions
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_multiplayer_button%
+  action = hidebutton
+}
+
+customization {
+  identifier = %id=9764%
+  action = hidebutton
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_options_button%
+  orientation = mid-centered
+  x = -48
+  action = movebutton
+  y = 18
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_quit_button%
+  action = hidebutton
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_language_button%
+  action = hidebutton
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_singleplayer_button%
+  orientation = bottom-right
+  x = -79
+  action = movebutton
+  y = -38
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_singleplayer_button%
+  width = 74
+  action = resizebutton
+  height = 20
+}
+
+customization {
+  identifier = %id=button_compatibility_id:forge_titlescreen_mods_button%
+  action = hidebutton
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_realms_button%
+  action = hidebutton
+}
+
+customization {
+  orientation = top-left
+  hidden = false
+  x = 186
+  width = 268
+  action = deep_customization_element:title_screen_forge_top
+  actionid = d4fd8b61-3d26-44ff-8d1a-8fe3d1263a541719052976485
+  y = 4
+  height = 19
+}
+
+customization {
+  orientation = top-left
+  hidden = false
+  x = 2
+  width = 161
+  action = deep_customization_element:title_screen_branding
+  actionid = a1c8865a-040a-45a0-b489-90aef1ec207d1719052976517
+  y = 287
+  height = 50
+}
+
+customization {
+  orientation = top-left
+  hidden = true
+  x = 411
+  width = 228
+  action = deep_customization_element:title_screen_forge_copyright
+  actionid = 1bdd4bf6-cff3-48ea-a1b2-b431750649131719052976517
+  y = 319
+  height = 9
+}
+
+customization {
+  orientation = top-left
+  hidden = true
+  x = 423
+  width = 13
+  action = deep_customization_element:title_screen_realms_notification
+  actionid = 0c4e8d91-311d-4671-be66-2119d28e4a051719052976518
+  y = 184
+  height = 13
+}
+
+customization {
+  orientation = top-left
+  hidden = true
+  x = 183
+  width = 274
+  action = deep_customization_element:title_screen_logo
+  actionid = b89cb419-0733-4565-9dfe-4e71655f43fd1719052976519
+  y = 30
+  height = 52
+}
+
+customization {
+  orientation = original
+  splash_color = #ffff00
+  hidden = true
+  x = 0
+  width = 60
+  splash_rotation = -20
+  action = deep_customization_element:title_screen_splash
+  actionid = 4a6afece-b905-4bcd-a548-8f3fc6b7366d1719052976519
+  y = 0
+  height = 30
+}
+
+customization {
+  path = sources/main.png
+  orientation = top-centered
+  x = -161
+  width = 325
+  actionid = a0461ee0-e711-4cb3-8877-119fcc5de34b1719053035162
+  action = addtexture
+  y = 45
+  height = 64
+}
+
+customization {
+  orientation = mid-centered
+  loopbackgroundanimations = false
+  restartbackgroundanimations = true
+  buttonaction = joinserver;108.181.131.226:25581%btnaction_splitter_fm%
+  x = -64
+  width = 128
+  action = addbutton
+  actionid = 2bc75d8e-57ce-4f97-a263-bbdbdcd46fff1719053119532
+  y = -10
+  label = Jugar
+  clicksound = sources/join.wav
+  height = 20
+}
+
+customization {
+  showname = false
+  orientation = mid-centered
+  crouching = false
+  x = -104
+  slim = false
+  actionid = 46f51ea3-face-4292-be91-751f7cf0f5fe1719053239840
+  action = addentity
+  y = 45
+  scale = 30
+  playername = %playername%
+  parrot = false
+}
+
