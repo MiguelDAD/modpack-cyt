@@ -18,3 +18,10 @@ recipes.addShaped("securitycraft:bouncing_betty", <securitycraft:bouncing_betty>
 //WAYSTONE
 recipes.removeByRecipeName("waystones:waystone");
 
+//CONTRASENIA DE COFRE
+recipes.removeByRecipeName("securitycraft:keypad_item");
+
+recipes.addShaped("securitycraft:keypad_item", <securitycraft:keypad_item>, 
+[[<securitycraft:reinforced_stone_button>, <ore:gemDiamond>, <securitycraft:reinforced_stone_button>],
+ [<securitycraft:reinforced_stone_button>, <ore:gemDiamond>, <securitycraft:reinforced_stone_button>],
+ [<securitycraft:reinforced_stone_button>, <ore:gemDiamond>, <securitycraft:reinforced_stone_button>]]);
