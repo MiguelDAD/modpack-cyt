@@ -25,3 +25,9 @@ recipes.addShaped("securitycraft:keypad_item", <securitycraft:keypad_item>,
 [[<securitycraft:reinforced_stone_button>, <ore:gemDiamond>, <securitycraft:reinforced_stone_button>],
  [<securitycraft:reinforced_stone_button>, <ore:gemDiamond>, <securitycraft:reinforced_stone_button>],
  [<securitycraft:reinforced_stone_button>, <ore:gemDiamond>, <securitycraft:reinforced_stone_button>]]);
+
+//MINA SUEPR CHETADA
+
+recipes.removeByRecipeName("tconstruct:gadgets/throwball/efln");
+
+recipes.addShaped("tconstruct:gadgets/throwball/efln", <tconstruct:throwball:1>, [ [<minecraft:flint>, <ore:dustSulfur>]]);
